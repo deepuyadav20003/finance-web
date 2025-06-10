@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Antivirus : websolutionLLC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/logo/fevicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        #header {
+            background: #04122b;
+
+        }
+
+        .banner-bullets li {
+            border-radius: 100px;
+            border: 1px solid #fff;
+            width: auto;
+            padding: 5px 10px;
+            margin-right: 13px;
+            font-size: 16px;
+            margin-bottom: 13px;
+        }
+
+        .gradient-background {
+            height: 100;
+            background: #04122b;
+            animation: gradient 5s ease infinite;
+            background-size: 400% 400%;
+
+        }
+
+        .gradient-background h1 {
+            font-size: 3rem !important;
+
+        }
+
+        .btn-blck:hover {
+            transform: translateY(-0.2rem) !important;
+        }
+
+        .offer-item {
+            height: 240px !important;
+        }
+
+        .offers p {
+            font-weight: 300 !important;
+        }
+
+        .advertisers-service-sec h3 {
+            margin: 10px 0 !important;
+        }
+
+        .advertisers-service-sec .service-card::after {
+            height: 100%;
+            background: #04122b;
+        }
+
+        .callNowpopupBnt {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            z-index: 99;
+        }
+
+        .phone-call {
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        .phone-call:before {
+            position: absolute;
+            content: " ";
+            z-index: -1;
+            top: -8px;
+            left: -9px;
+            width: 82px;
+            height: 82px;
+            opacity: 1;
+            animation: pulse 1.8s ease-out;
+            animation-iteration-count: infinite;
+            border-radius: 50px;
+            border: 1px solid #007aac;
+        }
+
+        .phone-call div {
+            width: 65px;
+            height: 65px;
+            border-radius: 50px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .routes-sec .accordion-sitemap .accordion-body p {
+            font-size: 14px !important;
+        }
+
+        .footer {
+            margin-bottom: 57px !important;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+        }
+
+        .service .card-body {
+            z-index: 1;
+            background: #f9f9f9;
+            padding-bottom: 30px;
+        }
+
+        .service .service-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            border: 1px solid #04122b;
+        }
+
+        .btn-buynow {
+            background: #0088c0;
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        .btn-buynow:hover {
+            background: #000;
+            border: 1px solid #01389d;
+            color: #fff;
+        }
+
+        .service .card img {
+            width: 100%;
+            height: 200px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- ======= Top Bar ======= -->
+    <!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+        <div class="logo me-auto me-lg-0"><img id="logo" src="./img/logo/wedevlope2.png" alt="websolutionLogo"></div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <li><a href="./index.html" class="nav-crl">Home</a></li>
+                <li><a href="./about.html" class="nav-crl">About Us</a></li>
+                <li class="dropdown"><a class="nav-crl">Services <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li class="dropdown"><a class="cursor-pointer">Website Services <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/web-design.html">Website Design</a></li>
+                                <li><a href="./services/web-application-devlopement.html">Web Application Development</a></li>
+                                <li><a href="./services/web-development.html">Website Development</a></li>
+                                <li><a href="./services/web-portal.html">Web Portal Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> Custom Development <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/asp-net-development.html">Asp.Net Development</a></li>
+                                <li><a href="./services/php-development.html">PHP Web Development</a></li>
+                                <li><a href="./services/java.html">Java/J2ee Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer">Frameworks <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/laravel-development.html">Laravel Development</a></li>
+                                <li><a href="./services/codeigniter.html">Codeigniter Development</a></li>
+                                <li><a href="./services/zend.html">Zend Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> Frontend Development <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/angular-development.html">Angular JS Development</a></li>
+                                <li><a href="./services/backbone-js-development.html">Backbone JS Development</a></li>
+                                <li><a href="./services/node-development.html">Node JS Development</a></li>
+                                <!--<li><a href="#">Bootstrap Development</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> Outsourcing Services <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/qa-software-testing.html">QA/Testing Services</a></li>
+                                <li><a href="./services/it-consulting.html">IT Consulting</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> E-Commerce <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/shopping-cart-solutions.html">Custom Cart Solutions</a></li>
+                                <li><a href="./services/magento-development.html">Magento Development</a></li>
+                                <li><a href="./services/opencart-development.html">Opencart Development</a></li>
+                                <li><a href="./services/virtuemart-development-services.html">Virtuemart Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> Content Management <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/cms-development.html">Custom CMS Solutions</a></li>
+                                <li><a href="./services/wordpress-development.html">WordPress Development</a></li>
+                                <li><a href="./services/drupal-development.html">Drupal Development</a></li>
+                                <li><a href="./services/joomla-development.html">Joomla Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="cursor-pointer"> Mobile App Development <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="./services/android-development.html">Android Development</a></li>
+                                <li><a href="./services/ios-development.html">iOS Development</a></li>
+                                <li><a href="./services/hybrid-application-development.html">Hybrid App Development</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="./contact.html" class="nav-crl">Contact Us</a></li>
+                <li class="dropdown"><a class="nav-crl cursor-pointer"><span>Other Links</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <a href="./our-team.html"><li class="dropdown"><span>Team</span></li></a>
+                        <a href="./mission-vision.html"><li class="dropdown"><span>Vision</span></li></a>
+                        <a href="./career.html"><li class="dropdown"><span>Career</span></li></a>
+                        <a href="./printer.html"><li class="dropdown"><span>Printer</span></li></a>
+                        <a href="./online-help.html"><li class="dropdown"><span>Online</span></li></a>
+                    </ul>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle nav-crl"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header>
+<!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <div class="container-fluid py-4 gradient-background">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-white">Looking for Trusted Antivirus Support?</h1>
+                    <div class="row mt-4 border-top border-bottom border-2 border-white p-3">
+                        <div class="col-md-6">
+                            <ul class="text-light">
+                                <li>System running slow due to malware</li>
+                                <li>Antivirus not updating or scanning</li>
+                                <li>Suspicious pop-ups or ads</li>
+                                <li>Antivirus software not opening</li>
+                                <li>Frequent security alerts</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="text-light">
+                                <li>Firewall or protection turned off</li>
+                                <li>Computer infected with viruses or spyware</li>
+                                <li>Help installing or configuring antivirus</li>
+                                <li>Real-time protection not working</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/norton/nor+ton.png" id="up-down" class="img-fluid" alt="Expert Antivirus Support"
+                        style="height: 500px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--=========== .NET Development Services=============-->
+    <section id="advertisers" class="advertisers-service-sec pb-5">
+        <div class="container">
+            <div class="contaienr-fluid pt-5 text-center">
+                <h2 class="linear-txt display-6">
+                    How Our Technicians Assist with Antivirus Support
+                </h2>
+                <p class="text-dark text-center px-5">
+                    Our experienced technicians provide a full range of antivirus services to protect your devices from
+                    threats and keep them running smoothly.
+                </p>
+            </div>
+
+            <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/printer/install.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>Antivirus Installation</h3>
+                        <p>
+                            We’ll install and configure antivirus software to ensure your system is protected from
+                            viruses, malware, and online threats.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/printer/no-wifi.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>Network Security Setup</h3>
+                        <p>
+                            Our team helps secure your internet connection and block unauthorized access with effective
+                            firewall configurations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/printer/warning.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>24/7 Malware Protection</h3>
+                        <p>
+                            Get round-the-clock support to detect and eliminate malware, spyware, and ransomware from
+                            your devices.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/flaticon/operator.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>System Health Check</h3>
+                        <p>
+                            We perform regular scans, cleanup, and optimization to maintain your device’s speed and
+                            safety.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/printer/on.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>Antivirus Updates</h3>
+                        <p>
+                            Stay protected with up-to-date virus definitions and software patches to stop the latest
+                            threats.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-card">
+                        <img src="img/flaticon/client.png" alt="" style="max-width: 75px; width: 100%;">
+                        <h3>Customer Assistance</h3>
+                        <p>
+                            Our support team is always ready to help you with antivirus configuration, troubleshooting,
+                            and guidance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid px-4 mt-5 pb-5">
+        <div class="card shadow-sm mb-4">
+            <header style="text-align: center; padding: 20px; background-color: #f9f9f9;">
+                <h1 class="text-dark">Antivirus Protection Made Easy with websolution Setup</h1>
+                <p class="text-dark">Fast and Professional Antivirus Setup Services – Secure Your Devices Instantly!</p>
+            </header>
+
+            <section style="padding: 20px;">
+                <h2>Why Trust websolution Setup for Antivirus Installation?</h2>
+                <ul class="text-dark">
+                    <li><strong> Certified Technicians:</strong> Our team is experienced with top antivirus software –
+                        Norton, McAfee, Avast, Bitdefender, and more!</li>
+                    <li><strong>24/7 Support:</strong> Viruses don’t wait. Our experts are available anytime to secure
+                        your system.</li>
+                    <li><strong>Complete Device Coverage:</strong> We install and configure antivirus on all your
+                        devices – desktops, laptops, tablets, and smartphones.</li>
+                    <li><strong>Error-Free Installation:</strong> Skip confusing setup steps and error messages – we
+                        handle everything smoothly.</li>
+                    <li><strong>Transparent Pricing:</strong> No surprises or hidden fees – just reliable protection at
+                        fair rates.</li>
+                </ul>
+            </section>
+
+            <section style="padding: 20px; background-color: #f9f9f9;">
+                <h2>We Resolve All Antivirus Setup Issues</h2>
+                <ol class="text-dark">
+                    <li>Antivirus Installation & Activation</li>
+                    <li>Real-time protection not working</li>
+                    <li>Error messages during installation</li>
+                    <li>Compatibility issues with your OS</li>
+                    <li>Firewall or security conflicts</li>
+                    <li>Multi-device configuration issues</li>
+                    <li>System slowdown after installation</li>
+                    <li>Virus definition update failures</li>
+                </ol>
+            </section>
+
+            <section style="padding: 20px;">
+                <h2>How websolution Setup Works</h2>
+                <ol class="text-dark">
+                    <li><strong>Contact Us:</strong> Tap the call button to instantly connect with a certified expert.
+                    </li>
+                    <li><strong>Quick Diagnosis:</strong> Our technicians assess the issue and guide you through every
+                        step.</li>
+                    <li><strong>Complete Protection:</strong> We ensure your antivirus is fully functional and optimized
+                        – satisfaction guaranteed!</li>
+                </ol>
+            </section>
+
+            <div style="text-align: center; padding: 20px; background-color: #007aac;">
+                <h1 class="text-white">Get in Touch with websolution Today – Your Trusted Antivirus Support Partner!</h1>
+                <p class="text-white">Don’t leave your system vulnerable. Contact websolution Setup now for quick, secure,
+                    and professional antivirus setup services.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-4 pb-5">
+        <div class="card shadow-sm mb-4">
+            <header style="background-color: #007aac;">
+                <h2 class="text-white pt-3 px-3">STEPS TO SET UP ANTIVIRUS SOFTWARE</h2>
+            </header>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">1. Choose the Right Antivirus Software</h2>
+                <ul class="text-dark">
+                    <li>Research top antivirus solutions like Norton, McAfee, Bitdefender, Avast, etc.</li>
+                    <li>Ensure the antivirus is compatible with your operating system and device.</li>
+                    <li>Purchase a license or choose a free version based on your needs.</li>
+                    <li>Download the official installer from the vendor’s website.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">2. Install the Antivirus Software</h2>
+
+                <h3>A. On Windows</h3>
+                <ul class="text-dark">
+                    <li>Run the downloaded installer file (usually `.exe`).</li>
+                    <li>Follow the on-screen instructions to complete installation.</li>
+                    <li>Allow necessary permissions if prompted by Windows Defender.</li>
+                    <li>Restart your PC if required after the installation.</li>
+                </ul>
+
+                <h3>B. On macOS</h3>
+                <ul class="text-dark">
+                    <li>Open the `.dmg` installation file downloaded from the vendor.</li>
+                    <li>Drag the antivirus application into the Applications folder.</li>
+                    <li>Grant necessary permissions in "System Preferences" if prompted.</li>
+                    <li>Complete setup and restart the system if prompted.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">3. Activate and Register Your Antivirus</h2>
+
+                <h3>A. Using License Key</h3>
+                <ul class="text-dark">
+                    <li>Launch the antivirus software.</li>
+                    <li>Enter your license key or activation code provided after purchase.</li>
+                    <li>Follow any additional verification or registration steps.</li>
+                </ul>
+
+                <h3>B. With Online Account</h3>
+                <ul class="text-dark">
+                    <li>Sign in or create an account with the antivirus provider.</li>
+                    <li>Link your software license to the account for easier management.</li>
+                    <li>Ensure email verification is completed for full access.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">4. Run a Full System Scan</h2>
+
+                <h3>Initial Full Scan</h3>
+                <ul class="text-dark">
+                    <li>Open the antivirus dashboard.</li>
+                    <li>Choose “Full System Scan” to check for existing threats.</li>
+                    <li>Let the scan complete (may take time depending on files and system specs).</li>
+                    <li>Follow recommended actions for any threats found.</li>
+                </ul>
+
+                <h3>Scheduled Scans</h3>
+                <ul class="text-dark">
+                    <li>Set up daily or weekly scan schedules.</li>
+                    <li>Customize scan times to avoid interrupting work or gaming sessions.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">5. Update Virus Definitions</h2>
+
+                <h3>Manual Updates</h3>
+                <ul class="text-dark">
+                    <li>Open your antivirus settings or dashboard.</li>
+                    <li>Click on "Check for Updates" or similar option.</li>
+                    <li>Install any available security updates or virus definitions.</li>
+                </ul>
+
+                <h3>Automatic Updates</h3>
+                <ul class="text-dark">
+                    <li>Enable automatic updates for real-time protection against new threats.</li>
+                    <li>Ensure your system is connected to the internet regularly for updates.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">6. Customize Security Settings (Optional)</h2>
+                <ul class="text-dark">
+                    <li>Adjust firewall, web protection, and real-time scanning settings based on your needs.</li>
+                    <li>Enable email and USB drive scanning for added protection.</li>
+                    <li>Exclude trusted files or apps to avoid false positives.</li>
+                </ul>
+            </div>
+
+            <div class="step m-4 p-3 br-10" style="background: #f9f9f9;">
+                <h2 class="text-blue">Troubleshooting Tips</h2>
+                <ul class="text-dark">
+                    <li>Ensure you are using the latest version of the antivirus software.</li>
+                    <li>If installation fails, disable conflicting software like older antivirus tools.</li>
+                    <li>Restart your system and try reinstalling the antivirus.</li>
+                    <li>Use the official support or help center for known issues.</li>
+                    <li>Check your system for malware with an offline scan if problems persist.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container service pb-5">
+        <div class="content text-center">
+            <h3 class="display-5">Our Latest Product</h3>
+            <p class="text-dark">Find the perfect product for all you needs</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 Deluxe</h5>
+                        <p class="card-text text-center text-dark">Price $24.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 For Gamers</h5>
+                        <p class="card-text text-center text-dark">Price $29.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 Standard</h5>
+                        <p class="card-text text-center text-dark">Price $19.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 with LifeLock Select</h5>
+                        <p class="card-text text-center text-dark">Price $99.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">LifeLock Ultimate Plus</h5>
+                        <p class="card-text text-center text-dark">Price $219.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton AntiVirus Plus For 1 Year</h5>
+                        <p class="card-text text-center text-dark">Price $39.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 with LifeLock Select</h5>
+                        <p class="card-text text-center text-dark">Price $99.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card service-item" style="width: 100%;">
+                    <img src="img/norton/nor3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark text-center fs-3">Norton 360 Standard</h5>
+                        <p class="card-text text-center text-dark">Price $19.99</p>
+                        <div class="btn-buy text-center">
+                            <a href="" class="btn-buynow py-2 px-3"><i class="fas fa-cart-plus"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="print-need text-center py-5" style="background: #dadada;">
+        <h3 class="fs-1 fw-bold">Need Help with Your Printer or Scanner? </h3>
+        <p class="text-dark">Call Our Toll-Free Number or Live Chat with an Expert for Support.</p>
+        <!-- <div class="mt-4"><a href="tel:+1(888) 673-4811"
+                class=" border border-2 border-dark rounded-pill text-dark py-3 px-5 fs-4 fw-bold"><i
+                    class="fa-solid fa-phone"></i> (888) 673-4811 </a>
+                </div> -->
+    </div>
+
+
+    <!-- FOOTER  -->
+    <div class="container-fluid"
+        style="background-image: url(../img/background-footer.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <div class="container footer">
+            <div class="footer-top py-3 border-bottom">
+                <div class=" row mt-4 g-3">
+                    <div class="col-md-6">
+                        <div class="logo">
+                            <a href="https://wedevlope.com/"><img id="logo"
+                                    src="./img/logo/wedevlope1.png" alt="websolutionLogo"
+                                    style="width: 250px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social__icons">
+                            <div class="d-flex">
+                                <a href="https://x.com/wedevlope"><i
+                                        class="fa-brands fa-x-twitter bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="https://www.facebook.com/officialWeDevlope/"><i
+                                        class="fa-brands fa-facebook bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="https://www.pinterest.com/wedevlope/"><i
+                                        class="fa-brands fa-pinterest bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="https://www.instagram.com/officialwedevlope/"><i
+                                        class="fa-brands fa-instagram bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle py-3 border-bottom">
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <p class="text-dark text-justify">At websolution, we're your one-stop destination for all things
+                            digital. Our
+                            range of services includes captivating website design, robust web development, engaging
+                            social media optimization, and strategic SEO solutions. Whether you're starting fresh or
+                            looking to amplify your online presence, our team is committed to delivering exceptional
+                            results tailored to your unique needs. With websolutionWeb Solution, you can solve the riddle
+                            of attaining full potential of your brand and stand out in the digital landscape like never
+                            before.</p>
+                    </div>
+                    <div class="col-md-6 p-3 get_in_touch">
+                        <div class="heading">
+                            <h3 class="border-bottom fs-1">Get In Touch</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> New York</li>
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> Atlanta</li>
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> Dallas</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> Philadelphia
+                                    </li>
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> Boston</li>
+                                    <li class="list-group-item"><i class="fa-solid fa-location-dot"></i> Las Vegas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <style>
+                            .list-group {
+                                border-radius: 5px !important;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom border-bottom">
+                <div class="row text-dark">
+                    <div class="col-md-3 py-4 " style="line-height: 5px;">
+                        <h3 class="text-dark fs-2 fw-semibold">Services</h3>
+                        <p><a class="text-blue" href="./services/web-design">Website Design</a>
+                        </p>
+                        <p><a class="text-blue"
+                                href="./services/web-application-devlopement">Web Application
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/web-development">Website
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/web-portal">Web Portal
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/asp-net-development">Asp .net
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/php-development">PHP
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/laravel-development">Laravel
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/angular-development">AngularJS
+                                development</a></p>
+                        <p><a class="text-blue" href="./services/codeigniter">Codeigniter
+                                Development</a></p>
+                        <p><a class="text-blue" href="./services/">All Services</a></p>
+                    </div>
+                    <div class="col-md-3 py-4" style="line-height: 5px;">
+                        <h3 class="text-dark fs-2 fw-semibold">Digital Marketing</h3>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/local-seo-services">Local SEO
+                                Services</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/ecommerce-seo-services">Mobile SEO
+                                Services</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/amazon-seo-services">Amazon SEO
+                                Services</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/social-media-marketing-services">Social
+                                Media Marketing</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/facebook-advertising-services">Facebook
+                                Advertising</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/instagram-advertising-services">Instagram
+                                Marketing</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/youtube-marketing-services">YouTube
+                                Marketing</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/twitter-advertising-services">Twitter
+                                Marketing</a></p>
+                        <p><a class="text-blue" href="./digital-marketing/google-adwords">Google
+                                Adwords</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/google-remarketing-services">Remarketing</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 py-4" style="line-height: 5px;">
+                        <h3 class="text-dark fs-2 fw-semibold">Hire Team</h3>
+                        <p><a class="text-blue" href="./hire-team/hire-dotnet-developers">Hire
+                                .NET Developers</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/ecommerce-seo-services">Hire PHP
+                                developers</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/amazon-seo-services">Hire Python
+                                Developer</a></p>
+                        <p><a class="text-blue" href="./hire-team/hire-java-developers">Hire
+                                Java Developers</a></p>
+                        <p><a class="text-blue"
+                                href="./hire-team/hire-wordpress-developers">Hire WordPress
+                                Developers</a></p>
+                        <p><a class="text-blue" href="./hire-team/hire-ios-app-developers">Hire
+                                iOS App Develope</a></p>
+                        <p><a class="text-blue" href="./hire-team/hire-android-developers">Hire
+                                Android Developers</a></p>
+                        <p><a class="text-blue"
+                                href="./digital-marketing/twitter-advertising-services">Hire
+                                Laravel Developers</a></p>
+                        <p><a class="text-blue" href="./digital-marketing/google-adwords">Hire
+                                Node.js Developers</a></p>
+                        <p><a class="text-blue"
+                                href="./hire-team/hire-digital-marketing-experts">Hire Digital
+                                Marketing Expert</a></p>
+                    </div>
+                    <div class="col-md-3 py-4" style="line-height: 5px;">
+                        <h3 class="text-dark fs-2 fw-semibold">Support Links</h3>
+                        <p><a class="text-blue" href="./about">About Us</a></p>
+                        <p><a class="text-blue" href="./packages">Packages</a></p>
+                        <p><a class="text-blue" href="./our-team">Team</a></p>
+                        <p><a class="text-blue" href="./mission-vision">Mission and Vision</a>
+                        </p>
+                        <p><a class="text-blue" href="./terms-of-service">Terms of Service</a>
+                        </p>
+                        <p><a class="text-blue" href="./privacy-policies">Privacy Policy</a></p>
+                        <p><a class="text-blue" href="./refund-policy">Refund Policy</a></p>
+                        <p><a class="text-blue" href="./disclaimer">Disclaimer</a></p>
+                        <p><a class="text-blue" href="./contact">Contact Us</a></p>
+                        <p><a class="text-blue" href="./career">Career</a></p>
+                        <!--<p><a class="text-blue"-->
+                        <!--        href="./hire-team/hire-ios-app-developers">Sitemap</a></p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-last">
+                <div class="copyright-links text-center pt-2">
+                    <p class="text-dark fs-14 m-0">Copyright © 2023-2024 websolutionAll rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <!--<a href="#" class="btn btn-lg bg-main text-light btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>-->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <!--<script src="../js/SmoothScroll.js"></script>-->
+
+
+
+
+</body>
+
+</html>

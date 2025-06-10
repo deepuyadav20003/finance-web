@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="968.066px" height="596.566px" viewBox="0 0 968.066 596.566" enable-background="new 0 0 968.066 596.566"
+	 xml:space="preserve">
+<g id="Content_2_">
+	
+		<circle fill="none" stroke="#000000" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,11" cx="490.605" cy="294.839" r="215.629"/>
+	<g id="Code_Reusability_4_">
+		<text transform="matrix(1 0 0 1 145.5771 152.2021)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">API Integration</text>
+		<circle fill="#ED2631" cx="338.956" cy="144.202" r="46.001"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M351.792,135.463
+			c-2.078-2.077,0.357-3.869,1.792-3.869c2.372,0.115,4.389-1.713,4.504-4.085c0.117-2.372-1.712-4.39-4.084-4.505
+			s-4.391,1.713-4.506,4.085c-0.006,0.139-0.006,0.28,0,0.42c0,1.434-1.791,3.87-3.869,1.792l-7.597-7.599l-7.597,7.599
+			c-2.079,2.078,0.359,3.869,1.791,3.869c2.41-0.153,4.487,1.676,4.642,4.086c0.153,2.409-1.677,4.488-4.085,4.64
+			c-2.41,0.155-4.487-1.675-4.642-4.085c-0.012-0.185-0.012-0.37,0-0.555c0-1.434-1.792-3.869-3.87-1.792l-7.739,7.739l7.739,7.742
+			c2.078,2.079-0.357,3.87-1.791,3.87c-2.406-0.2-4.519,1.59-4.718,3.996c-0.199,2.406,1.589,4.518,3.995,4.718
+			c1.313,0.108,2.605-0.381,3.517-1.332c0.885-0.862,1.354-2.063,1.29-3.297c0-1.432,1.792-3.87,3.871-1.791l7.597,7.594
+			l7.739-7.738c2.078-2.078-0.357-3.87-1.791-3.87c-2.372,0.116-4.389-1.713-4.504-4.085c-0.117-2.373,1.712-4.39,4.084-4.505
+			c2.372-0.115,4.389,1.713,4.504,4.085c0.008,0.139,0.008,0.28,0,0.42c0,1.434,1.792,3.87,3.871,1.792l7.597-7.599L351.792,135.463
+			z"/>
+	</g>
+	<g id="Code_Reusability_5_">
+		<text transform="matrix(1 0 0 1 384.6489 15.4619)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Lightweight Framework</text>
+		<circle fill="#337AE2" cx="490.772" cy="82.467" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M469.528,58.705l3.2,4.799h35.196l3.2-4.799 M490.325,63.551v12.553"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M474.328,76.304h31.997l6.399,28.797h-44.796L474.328,76.304z"/>
+			
+				<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="490.327" cy="90.703" r="8"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M490.328,90.704l5.657-5.656"/>
+		</g>
+	</g>
+	<g id="Code_Reusability_3_">
+		<text transform="matrix(1 0 0 1 0 302.2021)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Backend Synchronization</text>
+		<circle fill="#F05722" cx="280.956" cy="294.202" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M256.926,312.658c0,0.853,0.693,1.546,1.545,1.546h43.293c0.853,0,1.546-0.693,1.546-1.546v-30.923h-29.376v-4.638h-17.008
+				V312.658z"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M285.684,297.196l3.711,3.71l3.71-3.71 M274.552,297.196l-3.71-3.711l-3.711,3.711"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M284.525,305.39c-3.587,1.963-8.043,1.3-10.901-1.623c-2.507-2.543-3.347-6.292-2.164-9.663 M275.711,289.002
+				c3.568-1.924,7.979-1.263,10.823,1.623c2.535,2.527,3.405,6.278,2.242,9.664"/>
+		</g>
+	</g>
+	<g id="Code_Reusability_2_">
+		<text transform="matrix(1 0 0 1 132.752 450.7983)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Restful Services</text>
+		<circle fill="#337AE2" cx="337.876" cy="438.47" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M328.635,424.292h-3.034v30.343h24.275v-30.343h-3.034"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M346.157,419.74h8.271c0.836,0,1.516,0.68,1.516,1.518v37.928c0,0.838-0.68,1.518-1.516,1.518H321.05
+				c-0.838,0-1.518-0.68-1.518-1.518v-37.928c0-0.838,0.68-1.518,1.518-1.518h8.269"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M343.049,418.222h-1.594c-0.418-2.053-2.418-3.379-4.472-2.962c-1.493,0.304-2.66,1.47-2.962,2.962h-1.593
+				c-1.966-0.129-3.663,1.357-3.794,3.324c-0.01,0.155-0.01,0.313,0,0.469v2.276h18.207v-2.276c0.084-2.01-1.475-3.707-3.483-3.793
+				C343.254,418.218,343.15,418.218,343.049,418.222z"/>
+		</g>
+	</g>
+	<g id="Code_Reusability_1_">
+		<text transform="matrix(1 0 0 1 406.1152 592.4624)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Easy Customizations</text>
+		<circle fill="#049F34" cx="490.772" cy="510.467" r="46.001"/>
+		<g>
+			<path fill="#F8F9F9" d="M472.45,533.027h34.25c0.422,0,0.761-0.34,0.761-0.762v-19.788h-1.521v19.027H472.45
+				c-1.262,0-2.283-1.021-2.283-2.283c0-1.261,1.021-2.282,2.283-2.282h1.522c0.42,0,0.761-0.342,0.761-0.762v-22.833h12.179v-1.522
+				h-12.179v-5.328c0-0.42-0.341-0.762-0.761-0.762h-1.522c-2.102,0.003-3.803,1.705-3.806,3.807v29.683
+				C468.647,531.323,470.349,533.025,472.45,533.027z M470.167,502.582v-3.043c0-1.262,1.021-2.285,2.283-2.285h0.761v28.163h-0.761
+				c-0.824-0.003-1.625,0.265-2.283,0.761V502.582z"/>
+			<path fill="#F8F9F9" d="M513.551,503.344c0.42,0,0.761-0.343,0.761-0.763v-4.566c0-0.42-0.341-0.762-0.761-0.762h-2.772
+				c-0.163-0.498-0.364-0.984-0.602-1.453l1.963-1.957c0.143-0.143,0.224-0.336,0.224-0.538s-0.081-0.397-0.224-0.54l-3.232-3.234
+				c-0.142-0.142-0.336-0.223-0.537-0.223c-0.203,0-0.396,0.081-0.539,0.225l-1.961,1.962c-0.468-0.237-0.953-0.438-1.453-0.601
+				v-2.773c0-0.42-0.34-0.762-0.762-0.762h-4.566c-0.42,0-0.76,0.342-0.76,0.762v2.773c-0.501,0.162-0.986,0.363-1.455,0.601
+				l-1.957-1.962c-0.143-0.144-0.337-0.225-0.539-0.225c-0.2,0-0.395,0.081-0.537,0.223l-3.236,3.232
+				c-0.144,0.144-0.223,0.338-0.223,0.539c0,0.203,0.079,0.396,0.223,0.539l1.965,1.957c-0.238,0.469-0.439,0.955-0.602,1.455
+				h-2.772c-0.422,0-0.763,0.342-0.763,0.762v4.566c0,0.42,0.341,0.763,0.763,0.763h2.772c0.163,0.499,0.363,0.985,0.602,1.452
+				l-1.963,1.957c-0.145,0.143-0.225,0.338-0.225,0.539c0,0.202,0.08,0.397,0.225,0.54l3.231,3.226c0.298,0.297,0.778,0.297,1.075,0
+				l1.959-1.956c0.469,0.238,0.955,0.438,1.457,0.603v2.772c0,0.419,0.34,0.761,0.76,0.761h4.566c0.422,0,0.762-0.342,0.762-0.761
+				v-2.772c0.5-0.164,0.986-0.364,1.455-0.603l1.957,1.956c0.297,0.297,0.779,0.297,1.076,0l3.234-3.228
+				c0.145-0.142,0.224-0.337,0.224-0.538c0-0.203-0.079-0.396-0.224-0.539l-1.963-1.957c0.237-0.469,0.438-0.955,0.602-1.452
+				H513.551z M509.474,502.388c-0.2,0.758-0.501,1.484-0.896,2.162c-0.174,0.299-0.125,0.679,0.12,0.922l1.826,1.82l-2.155,2.152
+				l-1.82-1.821c-0.244-0.244-0.623-0.294-0.922-0.121c-0.676,0.397-1.404,0.698-2.161,0.897c-0.336,0.087-0.57,0.389-0.57,0.736
+				v2.58h-3.045v-2.58c0-0.346-0.232-0.648-0.565-0.736c-0.759-0.199-1.487-0.5-2.163-0.897c-0.299-0.173-0.678-0.123-0.922,0.121
+				l-1.821,1.821l-2.156-2.152l1.827-1.82c0.245-0.243,0.295-0.623,0.12-0.922c-0.396-0.678-0.697-1.404-0.897-2.162
+				c-0.088-0.334-0.39-0.566-0.735-0.566h-2.58v-3.045h2.58c0.346-0.002,0.646-0.232,0.734-0.568
+				c0.201-0.757,0.503-1.484,0.896-2.16c0.175-0.301,0.127-0.68-0.118-0.924l-1.827-1.82l2.156-2.158l1.821,1.826
+				c0.244,0.246,0.623,0.295,0.922,0.121c0.677-0.395,1.404-0.696,2.163-0.896c0.334-0.088,0.565-0.391,0.565-0.734v-2.58h3.045
+				v2.58c0,0.346,0.233,0.648,0.566,0.736c0.758,0.199,1.486,0.501,2.163,0.895c0.3,0.176,0.68,0.127,0.924-0.119l1.822-1.828
+				l2.157,2.158l-1.827,1.822c-0.246,0.244-0.295,0.623-0.121,0.922c0.395,0.676,0.697,1.403,0.896,2.162
+				c0.089,0.333,0.39,0.564,0.734,0.566h2.579v3.045h-2.579C509.864,501.822,509.562,502.054,509.474,502.388z"/>
+			<path fill="#F8F9F9" d="M501.372,497.253c-1.681,0-3.043,1.363-3.043,3.045c0,1.683,1.362,3.046,3.043,3.046
+				c1.682,0,3.045-1.363,3.045-3.046C504.417,498.617,503.054,497.253,501.372,497.253z M501.372,501.822
+				c-0.84,0-1.522-0.682-1.522-1.523c0-0.84,0.683-1.521,1.522-1.521s1.522,0.682,1.522,1.521
+				C502.895,501.14,502.212,501.822,501.372,501.822z"/>
+		</g>
+	</g>
+	<g id="Plug__x26__Play_Development">
+		<text transform="matrix(1 0 0 1 708.251 455.4683)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Utility Library</text>
+		<circle fill="#ED2631" cx="639.663" cy="447.467" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M615.192,445.882c-2.347,0-1.827,6.084,0.26,7.126l22.596,10.429l27.809-15.642"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M615.192,452.833c-2.347,0-1.827,6.084,0.26,7.127l22.596,10.43l27.809-15.644"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M614.67,439.017l23.378-13.731c1.86-1.032,4.073-1.221,6.083-0.521l21.726,9.125l-27.809,15.643c0,0-18.946-9.038-22.161-10.428
+				c-3.216-1.393-2.78,5.82-0.435,6.951l22.596,10.429l27.809-15.642"/>
+		</g>
+	</g>
+	<g id="Code_Reusability">
+		<text transform="matrix(1 0 0 1 771.5439 302.2021)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Detailed Documentation</text>
+		<circle fill="#F05722" cx="701.956" cy="294.202" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M679.078,275.704h46.25
+				v9.25h-46.25V275.704z M679.078,284.954v27.75h46.25v-27.75"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M688.328,292.662h27.751
+				 M688.328,298.829h27.751 M688.328,304.996h15.417"/>
+			
+				<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="683.703" cy="280.329" r="0.771"/>
+			
+				<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="689.099" cy="280.329" r="0.771"/>
+			
+				<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="694.494" cy="280.329" r="0.771"/>
+		</g>
+	</g>
+	<g id="Improved_Design_Architecture_1_">
+		<text transform="matrix(1 0 0 1 698.5439 142.2021)" font-family="'Helvetica Neue LT Std'" style="font-weight:600;" font-size="18">Event Binding</text>
+		<circle fill="#FFC400" cx="625.956" cy="137.202" r="46.001"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M610.332,116.274v41.137h31.996v-30.471l-10.665-10.666H610.332z"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M631.663,116.274v10.666h10.665"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+				M622.521,121.607v3.809c0,1.683-1.365,3.047-3.048,3.047s-3.047-1.364-3.047-3.047v-9.903c0-2.104,1.705-3.81,3.809-3.81
+				s3.81,1.706,3.81,3.81v0.762"/>
+		</g>
+	</g>
+	<g id="Page_1_1_" transform="matrix(0.17893165,0,0,0.17893165,-129.37356,1149.0013)">
+		<g id="BackBone.JS_1_">
+			<path id="Path_172_" fill="#002A41" d="M3136.549-5220.025v455.592l339.1,193.296v-131.397l-226.856-129.318v-203.12
+				l226.856,129.318v-121.069L3136.549-5220.025z"/>
+			<path id="path2996_1_" fill="#0071B5" d="M3814.76-5220.025v455.592l-339.111,193.296v-131.397l226.856-129.318v-203.12
+				l-226.856,129.318v-121.069L3814.76-5220.025z"/>
+			<path id="path2998_1_" fill="#0071B5" d="M3136.549-4377.622v-455.592l339.1-193.304v131.403l-226.856,129.313v192.794
+				l226.856-129.315v131.395L3136.549-4377.622z"/>
+			<path id="path3000_1_" fill="#002A41" d="M3814.76-4377.622v-455.592l-339.111-193.304v131.403l226.856,129.313v192.794
+				l-226.856-129.315v131.395L3814.76-4377.622z"/>
+		</g>
+	</g>
+</g>
+</svg>

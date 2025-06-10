@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us : Websolution</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo/fevicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .gradient-background {
+            height: 100%;
+            background: linear-gradient(62deg, #37517e, #000000, #044386, #37517e);
+            animation: gradient 5s ease infinite;
+
+        }
+
+        @-webkit-keyframes gradient {
+            0% {
+                background-position: 0 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .heading-sec::after {
+            content: "";
+            width: 10%;
+            position: absolute;
+            height: 3px;
+            border-radius: 1px;
+            bottom: -1px;
+            left: 45%;
+            background: #ff5e14;
+        }
+    </style>
+
+</head>
+
+<body style="background: url(img/background-dot.jpg);">
+
+
+
+    <!--============== Navbar ===============-->
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+            <div class="logo me-auto me-lg-0"><img id="logo" src="./img/logo/wedevlope2.png" alt="websolution Logo"></div>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a href="./index.html" class="nav-crl">Home</a></li>
+                    <li><a href="./about.html" class="nav-crl">About Us</a></li>
+                    <li class="dropdown"><a class="nav-crl">Services <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li class="dropdown"><a class="cursor-pointer">Website Services <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/web-design.html">Website Design</a></li>
+                                    <li><a href="./services/web-application-devlopement.html">Web Application
+                                            Development</a></li>
+                                    <li><a href="./services/web-development.html">Website Development</a></li>
+                                    <li><a href="./services/web-portal.html">Web Portal Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> Custom Development <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/asp-net-development.html">Asp.Net Development</a></li>
+                                    <li><a href="./services/php-development.html">PHP Web Development</a></li>
+                                    <li><a href="./services/java.html">Java/J2ee Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer">Frameworks <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/laravel-development.html">Laravel Development</a></li>
+                                    <li><a href="./services/codeigniter.html">Codeigniter Development</a></li>
+                                    <li><a href="./services/zend.html">Zend Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> Frontend Development <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/angular-development.html">Angular JS Development</a></li>
+                                    <li><a href="./services/backbone-js-development.html">Backbone JS Development</a>
+                                    </li>
+                                    <li><a href="./services/node-development.html">Node JS Development</a></li>
+                                    <!--<li><a href="#">Bootstrap Development</a></li>-->
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> Outsourcing Services <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/qa-software-testing.html">QA/Testing Services</a></li>
+                                    <li><a href="./services/it-consulting.html">IT Consulting</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> E-Commerce <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/shopping-cart-solutions.html">Custom Cart Solutions</a></li>
+                                    <li><a href="./services/magento-development.html">Magento Development</a></li>
+                                    <li><a href="./services/opencart-development.html">Opencart Development</a></li>
+                                    <li><a href="./services/virtuemart-development-services.html">Virtuemart
+                                            Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> Content Management <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/cms-development.html">Custom CMS Solutions</a></li>
+                                    <li><a href="./services/wordpress-development.html">WordPress Development</a></li>
+                                    <li><a href="./services/drupal-development.html">Drupal Development</a></li>
+                                    <li><a href="./services/joomla-development.html">Joomla Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="cursor-pointer"> Mobile App Development <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="./services/android-development.html">Android Development</a></li>
+                                    <li><a href="./services/ios-development.html">iOS Development</a></li>
+                                    <li><a href="./services/hybrid-application-development.html">Hybrid App
+                                            Development</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="./contact.html" class="nav-crl">Contact Us</a></li>
+                    <li class="dropdown"><a class="nav-crl cursor-pointer"><span>Other Links</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <a href="./our-team.html">
+                                <li class="dropdown"><span>Team</span></li>
+                            </a>
+                            <a href="./mission-vision.html">
+                                <li class="dropdown"><span>Vision</span></li>
+                            </a>
+                            <a href="./career.html">
+                                <li class="dropdown"><span>Career</span></li>
+                            </a>
+                            <a href="./printer.html">
+                                <li class="dropdown"><span>Printer</span></li>
+                            </a>
+                            <a href="./online-help.html">
+                                <li class="dropdown"><span>Online</span></li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle nav-crl"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="container-fluid gradient-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 py-5 mt-4 mx-auto text-center">
+                    <h1 class="text-white display-5">About Us</h1>
+                    <p class="text-white ">We blend innovation with expertise to transform your digital ideas into
+                        dynamic realities. Partner with websolution to drive your business forward with creativity and
+                        precision.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-grey"></div>
+    <div class="container breadcrumbs">
+        <div itemscope itemtype="http://schema.org/WebPage">
+            <div itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a class="text-decoration-none text-dark fw-bold" itemprop="item" href="./">
+                        <span itemprop="name">Home</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </span>
+                <span>></span>
+                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a class="text-decoration-none text-dark" itemprop="item" href="./about">
+                        <span itemprop="name">About Us</span>
+                    </a>
+                    <meta itemprop="position" content="3" />
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--=========== Web Desigining =============-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-12 col-lg-5">
+                    <img src="img/about-us.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-12 col-lg-7">
+                    <h2 class="display-6 mb-2 linear-txt">Company Overview : Shaping Digital Excellence with websolution
+                    </h2>
+                    <p class="text-dark text-justify pb-0"> At websolution, we are dedicated to pushing the boundaries of
+                        digital innovation. Founded with a vision to revolutionize the way businesses engage with
+                        technology, our team of passionate experts crafts tailor-made solutions that elevate your brand
+                        and drive success. Our services span from cutting-edge web development to strategic digital
+                        marketing, each designed with meticulous attention to detail and creativity. <br><br> We
+                        understand that
+                        every project is unique, which is why we focus on delivering results that are as distinct as
+                        your business. With websolution, you gain a partner committed to turning your digital aspirations
+                        into impactful achievements, all while providing exceptional service and support. Join us in
+                        creating digital solutions that truly make a difference.</p>
+                    <ul class="text-dark">
+                        <li>Innovative digital solutions tailored to your unique business needs.</li>
+                        <li>Expert team dedicated to crafting impactful and creative strategies.</li>
+                        <li>Comprehensive services from web development to digital marketing.</li>
+                        <li>Focused on delivering exceptional results with precision and care.</li>
+                        <li>Committed to turning your digital vision into a reality.</li>
+                        <li>Personalized approach ensures solutions are as unique as your business.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 bg-grey">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="display-6 linear-txt">Why Choose Us? The websolution Difference</h2>
+                    <p class="fst-italic fs-5 text-dark">
+                        <span>" Choosing websolution means selecting a partner who transforms visions into reality with
+                            ingenuity and expertise. "</span>
+                        <br>
+                        " We are dedicated to crafting bespoke solutions that reflect your unique goals, ensuring every
+                        project is executed with precision and a personal touch. "
+                    </p>
+                    <ul class="list-none text-dark">
+
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Custom solutions designed to
+                            fit your unique business needs. </li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Custom solutions designed to
+                            fit your unique business needs.</li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Cutting-edge technology for
+                            innovative and impactful results.</li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Personalized approach
+                            ensuring every project stands out.</li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Proven track record of
+                            delivering exceptional outcomes.</li>
+
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Dedicated support throughout
+                            every phase of your project.</li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Agile methods for adapting to
+                            your evolving needs.</li>
+                        <li><i class="fa fa-star text-orange" aria-hidden="true"></i>&nbsp;Transparent communication for
+                            clear, collaborative processes.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/about-us-2.jpg" class="img-fluid br-10" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container text-center ">
+            <h2 class="text-blue display-6 text-center heading-sec position-relative">How We Work: Crafting Success with
+                Every Step</h2>
+            <p class="text-dark pt-2">Our approach is all about collaboration and innovation. We start by understanding
+                your unique vision and goals, setting the foundation for a tailored strategy. Our team then dives into
+                meticulous planning and creative brainstorming, ensuring every detail aligns with your objectives.
+                Throughout the project, we maintain open lines of communication, keeping you informed and involved at
+                every stage. Our process is driven by flexibility and responsiveness, adapting to your evolving needs
+                while focusing on delivering high-quality results. By blending technical expertise with a personal
+                touch, we transform your ideas into exceptional digital solutions that truly resonate with your
+                audience.</p>
+            <img src="img/about-us-3.png" class="img-fluid" alt="">
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="img/about-us-4.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="display-6 text-blue">What We Do : Transforming Ideas into Digital Brilliance</h2>
+                    <p class="text-dark">We specialize in crafting comprehensive digital solutions that elevate your
+                        business. Our expertise spans a wide range of services, including bespoke web development, where
+                        we build intuitive and engaging websites tailored to your needs. Our digital marketing
+                        strategies at websolution are designed to amplify your online presence and drive targeted traffic,
+                        utilizing the latest tools and trends. We also offer innovative app development, creating
+                        functional and user-friendly applications that enhance your customer experience.</p>
+                    <p class="text-dark">Additionally, our branding services ensure your business stands out with a
+                        distinctive and memorable identity. We are vowed to delivering top-notch solutions with a focus
+                        on quality and creativity, ensuring each project is executed with precision and personalized
+                        attention. Partner with us to turn your digital dreams into tangible successes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 text-center">
+        <h3 class="text-blue display-6">Curious About Us? Discover the websolution Story</h3>
+        <h4 class="text-dark border-bottom border-top d-inline py-2 fs-5 fw-bold linear-txt">We craft quality and
+            engaging websites that ranks well in search engine.</h4>
+        <p class="text-dark pt-4">Since our inception half a decade ago, websolution has been at the forefront of digital
+            innovation. We’ve partnered with a diverse range of industries, from dynamic startups to established
+            enterprises, helping them achieve their unique goals. Our journey has been marked by a commitment to
+            excellence and a passion for crafting solutions that make a difference. <br><br>
+
+            We pride ourselves on our ability to adapt and evolve, continuously refining our approach to meet the
+            ever-changing demands of the digital landscape. Each project we undertake is a testament to our dedication
+            to quality and creativity. By combining our technical expertise with a personalized touch, we turn complex
+            challenges into streamlined, effective solutions. Join us in celebrating a legacy of success and discover
+            how websolution can transform your vision into reality.</p>
+        <ul class="list-unstyled justify-content-center d-flex flex-wrap pt-2" style="gap: 8px;">
+            <li class="whatsapp text-center">
+                <div class="pt-3">
+                    <a href="tel:<?php echo $phoneNumber; ?>" class="btn-blck black"><i class="fa-solid fa-phone"></i>
+                        Contact Us</a>
+                </div>
+            </li>
+            <li class="whatsapp text-center">
+                <div class="pt-3">
+                    <a data-bs-toggle="modal" data-bs-target="#WedevlopeModal" class="btn-blck black"><i
+                            class="fa-solid fa-message cursor-pointer"></i> Request A Quote</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <!--tfn-->
+    <?php include "include/side-fixed-tfn.php"; ?>
+
+    <!--Enquire Modal-->
+    <?php include "include/modal.php"; ?>
+
+    <?php include "include/footer-contact.php"; ?>
+    <!-- FOOTER  -->
+    <div class="container-fluid"
+        style="background-image: url(../img/background-footer.png); background-position: center; background-size: cover; background-repeat: no-repeat;">
+        <div class="container footer">
+            <div class="footer-top py-3 border-bottom">
+                <div class=" row mt-4 g-3">
+                    <div class="col-md-6">
+                        <div class="logo">
+                            <img id="logo" src="./img/logo/wedevlope1.png"
+                                alt="Websolution Logo" style="width: 250px;">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social__icons">
+                            <div class="d-flex">
+                                <a href="#"><i
+                                        class="fa-brands fa-x-twitter bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="#"><i
+                                        class="fa-brands fa-facebook bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="#"><i
+                                        class="fa-brands fa-pinterest bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                                <a href="#"><i
+                                        class="fa-brands fa-instagram bg-sec br-10 text-light fs-3 p-2 mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle py-3 border-bottom">
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <p class="text-dark text-justify">At websolution, we're your one-stop destination for all things
+                            digital. Our
+                            range of services includes captivating website design, robust web development, engaging
+                            social media optimization, and strategic SEO solutions. Whether you're starting fresh or
+                            looking to amplify your online presence, our team is committed to delivering exceptional
+                            results tailored to your unique needs. With websolution Web Solution, you can solve the
+                            riddle
+                            of attaining full potential of your brand and stand out in the digital landscape like never
+                            before.</p>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="heading">
+                            <h3 class="border-bottom fs-1">Get In Touch</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-3 col-lg-3 col-3">
+                                        <img src="./img/location.png" alt="Location"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="col-sm-9 col-lg-9">
+                                        <address class="f-address text-dark">
+                                            <div class="ft_location_address">
+                                                <span><a href="#" class="text-blue fw-bold">USA</a></span>
+                                            </div>
+                                            <p>1350 NE 50TH CT, APT 102 <br>FORT LAUDERDALE <br>FL 33334</p>
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="script">
+                                        <!-- (c) 2005, 2024. Authorize.Net is a registered trademark of CyberSource Corporation -->
+                                        <div class="AuthorizeNetSeal">
+                                            <script type="text/javascript"
+                                                language="javascript">var ANS_customer_id = "f079deec-969e-4037-b199-b24e9645b3b9";</script>
+                                            <script type="text/javascript" language="javascript"
+                                                src="//verify.authorize.net:443/anetseal/seal.js"></script> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-last">
+                <div class="copyright-links text-center pt-2">
+                    <p class="text-dark fs-14 m-0">Copyright © 2023-2024 websolution LLC All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg bg-main text-light btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+    <!--<script src="../js/SmoothScroll.js"></script>-->
+
+
+
+
+
+</body>
+
+</html>

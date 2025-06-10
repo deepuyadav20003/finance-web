@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+Sitemap: https://www.wedevlope.com/sitemap.xml
+
+Disallow: /404-error.php

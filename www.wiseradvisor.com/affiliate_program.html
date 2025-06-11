@@ -1,0 +1,1435 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from www.wiseradvisor.com/affiliate_program.asp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Jun 2025 18:11:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Affiliate Program | WiserAdvisor.com</title>
+<link rel="canonical" href="affiliate_program.html"/>
+<link
+	href="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	type="text/css" / rel="stylesheet">
+<link href="wiseradvisor/v4/css/desktop.css" type="text/css"
+	rel="stylesheet">
+<script
+	src="../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel='shortcut icon'
+	href='http://static.wiseradvisor.com/images/favicon.ico' type='image/x-icon' />
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script> -->
+<script
+	src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src='../www.google.com/recaptcha/api.js'></script>
+		<script	src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="wiseradvisor/v4/js/form_validation.js"></script>
+
+
+
+
+
+
+
+
+<link rel='shortcut icon' href='http://static.wiseradvisor.com/images/favicon.ico' type='image/x-icon'  />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9HBJGK');</script>
+<!-- End Google Tag Manager -->
+<meta name="msvalidate.01" content="8EE5D76035C042F61FBF3F2010760F13" />
+
+
+
+
+<style>
+.affi-form {
+	height: auto !important;
+}
+
+.pass {
+	float: left;
+	width: 187px;
+}
+
+.pass input {
+	width: 185px !important;
+}
+
+.traff {
+	width: 100% important;
+}
+
+.traff select {
+	width: 383px !important;
+	float: left !important;
+}
+
+.termchkb {
+	width: 100% important;
+}
+
+.termchkb input {
+	width: 20px;
+	margin-top: 27px;
+	height: 20px;
+}
+</style>
+<script type="text/javascript">
+	$(document)
+			.ready(
+					function() {
+						$("#submit")
+								.click(
+										function(e) {
+											if (this.form.checkValidity()) {
+												e.preventDefault(e);
+												var validate = true;
+												var fname = document
+														.getElementById("fname").value;
+												var lname = document
+														.getElementById("lname").value;
+												var address1 = document
+														.getElementById("address1").value;
+												var address2 = document
+														.getElementById("address2").value;
+												var zip = document
+														.getElementById("zip_form").value;
+												var phone = document
+														.getElementById("phone").value;
+												var email = document
+														.getElementById("email_form").value;
+												var verify_email = document
+														.getElementById("verify_email").value;
+												var password = document
+														.getElementById("password").value;
+												var verify_password = document
+														.getElementById("verify_password").value;
+												var company = document
+														.getElementById("company").value;
+												var url = document
+														.getElementById("url").value;
+												var traffic = document
+														.getElementById("traffic").value;
+												var captcha = grecaptcha
+														.getResponse();
+
+												if (captcha.length == 0) {
+													$("#rsp_jcaptcha")
+															.html(
+																	'You can\'t leave Captcha Code empty');
+													validation = false;
+												} else {
+													$("#rsp_jcaptcha").html('');
+												}
+
+												$cb = $('input#accept');
+												if ($cb.prop('checked')) {
+													$("#rsp_accept").html('');
+												} else {
+													$("#rsp_accept")
+															.html(
+																	'You must agree to the Affiliate Agreement.');
+													validate = false;
+												}
+
+												$
+														.ajax({
+															url : "/wiseradvisor/directory/getcitystate.jsp?zip="
+																	+ zip,
+															cache : false,
+															async : false,
+															success : function(
+																	result) {
+																if (result
+																		.trim() == 'false') {
+																	$(
+																			"#rsp_zip")
+																			.html(
+																					'You must provide a valid ZIP/Postal Code or indicate that you reside outside of U.S./Canada.');
+																	validate = false;
+																} else {
+																	$(
+																			"#rsp_zip")
+																			.html(
+																					'');
+																}
+															}
+														});
+
+												phone = phone.replace(
+														/[^a-z0-9\s]/gi, '')
+														.replace(/[_\s]/g, '');
+												if ($.isNumeric(phone)
+														&& phone.length == 10) {
+													if (phone
+															.indexOf("5551212") > -1
+															|| phone
+																	.indexOf("0000000") > -1
+															|| phone
+																	.indexOf("1111111") > -1
+															|| phone
+																	.indexOf("2222222") > -1
+															|| phone
+																	.indexOf("3333333") > -1
+															|| phone
+																	.indexOf("4444444") > -1
+															|| phone
+																	.indexOf("5555555") > -1
+															|| phone
+																	.indexOf("6666666") > -1
+															|| phone
+																	.indexOf("7777777") > -1
+															|| phone
+																	.indexOf("8888888") > -1
+															|| phone
+																	.indexOf("9999999") > -1
+															|| phone
+																	.indexOf("123456789") > -1) {
+														$("#rsp_phone")
+																.html(
+																		'Phone no. is not valid!');
+														validate = false;
+													} else {
+														$("#rsp_phone")
+																.html('');
+														var area = phone
+																.substring(0, 3);
+														var phone = phone
+																.substring(3,
+																		10);
+													}
+												}
+												if (email == verify_email) {
+													$("#rsp_verify_email")
+															.html('');
+												} else {
+													$("#rsp_verify_email")
+															.html(
+																	'Email Addresses do not match.');
+													validate = false;
+												}
+
+												if (password == verify_password) {
+													$("#rsp_password").html('');
+												} else {
+													$("#rsp_password")
+															.html(
+																	'Passwords entered did not match.');
+													validate = false;
+												}
+												if (validate
+														&& $cb.prop('checked')) {
+													$(".error-custom").css(
+															"display", "none");
+													var formData = {
+														'fname' : fname,
+														'lname' : lname,
+														'address1' : address1,
+														'address2' : address2,
+														'zip' : zip,
+														'area' : area,
+														'phone' : phone,
+														'email' : email,
+														'verify_email' : verify_email,
+														'password' : password,
+														'verify_password' : verify_password,
+														'company' : company,
+														'url' : url,
+														'traffic' : traffic,
+														'g-recaptcha-response' : captcha
+													};
+													$("#loading").show();
+													$("#submit").hide();
+													$
+															.ajax({
+																type : 'POST',
+																url : "/rest/affiliate/lead",
+																dataType : 'json',
+																contentType : 'application/json',
+																data : JSON
+																		.stringify(formData),
+																success : function(
+																		result) {
+																	$(
+																			"#loading")
+																			.hide();
+																	$("#submit")
+																			.show();
+																	if (result.success) {
+																		$(
+																				".form_success")
+																				.show();
+																		$(
+																				".form_default")
+																				.hide();
+																	} else {
+																		for ( var i in result.errors) {
+																			console
+																					.log(result.errors[i].field
+																							+ " "
+																							+ result.errors[i].message);
+																			$(
+																					"#rsp_"
+																							+ result.errors[i].field)
+																					.html(
+																							result.errors[i].message);
+																		}
+																		$(
+																				".form_success")
+																				.hide();
+																		$(
+																				".form_default")
+																				.show();
+																	}
+																}
+															});
+												} else {
+													$(".error-custom").css(
+															"display", "block");
+												}
+											}
+										});
+					});
+</script>
+<script>
+function InvalidMsg(textbox, message) { 
+
+    if (textbox.value === '') { 
+        textbox.setCustomValidity 
+              (message); 
+    } else if (textbox.validity.typeMismatch) { 
+        textbox.setCustomValidity 
+              (message); 
+    } else { 
+        textbox.setCustomValidity(''); 
+    } 
+
+    return true; 
+} 
+</script>
+</head>
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9HBJGK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<body>
+	<!-- TrustBox script -->
+
+<script type="text/javascript"
+	src="../widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js"
+	async></script>
+<!-- End Trustbox script -->
+
+
+
+<header id="desktop-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="https://www.wiseradvisor.com:443/"><img
+						src="../static.wiseradvisor.com/wiseradvisor/v2/images/logo.png"
+						alt="Wiseradvisor - Find Local Financial Advisor" /></a>
+					<button class="navbar-toggler nav-btn" type="button"
+						data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div class="menu-top">
+						<ul>
+							<li><a href="https://www.wiseradvisor.com/portfolio/index?section=individual"
+								rel="nofollow" class="adv">Individual Sign In</a></li>
+								
+							<li><a href="https://www.wiseradvisor.com/portfolio/index?section=advisor"
+								rel="nofollow" class="adv">Advisor Sign In</a></li>
+							
+							<li><a href="https://wiseradvisorgrowth.com/get-started/?utm_source=wiseradvisor&amp;utm_content=are_you_advisor"
+								rel="nofollow" class="adv2">Are you a financial advisor? Sign Up</a></li>
+						</ul>
+					</div>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent"
+						style="margin-top: 32px;">
+						<ul class="navbar-nav ml-auto">
+
+							<li class="nav-item active Directory-1"><a
+								href="financial-advisors.asp/index.html" class="">Financial Advisors</a>
+								<div class="dropdown-content">
+									<div class="column">
+
+										<h3>
+											<a href="financial-advisors.asp/index.html">Find a Financial
+												Advisor</a>
+										</h3>
+										<a href="match_advisorsd22c.html?kwd=financial_advisors_top_nav">Get
+											Matched to a Vetted Advisor</a> <a href="financial-advisors.html">Search
+											Our Advisor Directory</a>
+
+										<h3>
+											<a href="financial-advisors.asp/index.html">Cities</a>
+										</h3>
+										<a href="financial-advisors/georgia/atlanta/index.html">Financial
+											Advisors in Atlanta</a> <a
+											href="financial-advisors/texas/dallas/index.html">Financial
+											Advisors in Dallas</a> <a
+											href="financial-advisors/colorado/denver/index.html">Financial
+											Advisors in Denver</a> <a
+											href="financial-advisors/texas/houston/index.html">Financial
+											Advisors in Houston</a> <a
+											href="financial-advisors/new-york/new-york/index.html">Financial
+											Advisors in New York</a> <a href="financial-advisors.html">More
+											cities...</a>
+
+										<h3></h3>
+										<a href="financial-advisors/fee-only-financial-advisors/index.html">Fee-Only
+											Financial Advisors</a> <a
+											href="financial-advisors/fee-based-financial-advisors/index.html">Fee-Based
+											Financial Advisors</a>
+
+									</div>
+									<div class="column">
+										<h3>
+											<a href="blog/index.html">Important
+												Reads</a>
+										</h3>
+										<a
+											href="blog/financial-advisor-guide/how-to-find-a-financial-advisor/index.html">How
+											to Find a Financial Advisor</a> <a
+											href="blog/financial-advisor-guide/what-is-the-cost-of-a-financial-advisor/index.html">Cost
+											of a Financial Advisor</a> <a
+											href="blog/financial-advisor-guide/fiduciary-financial-advisor/index.html">Fiduciary
+											Financial Advisors</a> <a
+											href="blog/financial-advisor-guide/questions-to-ask-your-financial-advisor/index.html">Questions
+											to Ask an Advisor</a> <a
+											href="blog/financial-advisor/financial-advisor-what-does-he-do/index.html">What
+											Does a Financial Advisor Do?</a> <a
+											href="blog/financial-advisor-guide/how-to-determine-if-your-financial-advisor-is-doing-a-good-job-each-year/index.html">The 
+											How To Determine If Your Financial Advisor Is Doing A Good Job Each Year</a> <a
+											href="blog/category/financial-advisor-guide/index.html">More
+											Articles on Financial Advisors</a>
+									</div>
+									<div class="column">
+										<h3>
+											<a href="javascript:">Financial Advisors<br />for
+												Professionals
+											</a>
+										</h3>
+										<a href="financial-advisors/athletes/index.html">Athletes</a> <a
+											href="financial-advisors/doctors/index.html">Doctors</a>
+									</div>
+								</div></li>
+
+
+							<li class="nav-item active Retirement-1"><a
+								href="retirement/index.html" class="">Retirement</a>
+								<div class="dropdown-content-1">
+									<div class="column">
+
+
+										<h3>Find a Retirement Advisor</h3>
+										<a href="match_advisors6d17.html?kwd=retirement_top_nav">Get
+											Matched a Vetted Advisor for your Retirement</a> <a
+											href="financial-advisors.html">Retirement Advisors Near
+											You</a>
+
+										<h3>Retirement Guide</h3>
+										<a
+											href="retirement/index.html">Retirement Guide Homepage</a><a
+										    href="blog/financial-advisor-guide/why-should-you-hire-a-retirement-advisor/index.html">Should
+											You Hire An Advisor For Your Retirement?</a> <a
+											href="blog/retirement/retirement-investment-strategies/index.html">Retirement
+											Investment Strategies</a> <a
+											href="blog/retirement-planning/average-retirement-savings/index.html">Average
+											Retirement Savings by Age</a> <a
+											href="blog/retirement-planning/retirement-planning-high-net-worth-individuals/index.html">Retirement
+											Planning for High-Net-Worth Individuals</a>
+
+									</div>
+									<div class="column">
+										<h3>Calculators</h3>
+
+
+										<a
+											href="retirement-calculator/how-much-do-you-need-for-retirement-6/index.html">How
+											Much Do You Need For Retirement?</a> <a
+											href="retirement-calculator/how-will-retirement-impact-my-living-expenses-2/index.html">How
+											Will Retirement Impact My Living Expenses?</a> <a
+											href="retirement-calculator/compare-a-roth-401(k)-to-a-traditional-401(k)-1/index.html">Roth
+											401(K) To a Traditional 401(K)</a> <a
+											href="retirement-calculator/are-my-current-retirement-savings-sufficient-3/index.html">Are
+											My Current Retirement Savings Sufficient?</a> <a
+											href="retirement/index.html">Other Retirement Calculators</a>
+
+
+
+									</div>
+									<div class="column">
+										<h3>Important Reads</h3>
+										
+
+										<a
+											href="blog/retirement-planning/what-is-a-401k-and-how-does-it-work/index.html">What
+											is a 401K?</a> <a
+											href="blog/retirement-planning/what-is-a-roth-ira/index.html">What
+											is a Roth IRA?</a> <a
+											href="blog/retirement-planning/retirement-benefits-mistakes/index.html">Common
+											Retirement Mistakes</a> <a
+											href="blog/retirement-planning/retirement-planning-checklist/index.html">Retirement
+											Planning Checklist</a> <a
+											href="blog/retirement-planning/financial-advisor-question-about-retirement/index.html">Question
+											To Ask Your Advisor About Retirement</a> <a
+											href="blog/retirement-planning/retirement-savings-tips-for-55-64-year-olds/index.html">Retirement
+											Savings Tips For 55-64 Year Olds</a> <a
+											href="blog/category/retirement-planning/index.html">More
+											Articles on Retirement Planning</a>
+
+									</div>
+								</div></li>
+
+							<li class="nav-item active Retirement-1"><a
+								href="investing/index.html" class="">Investing</a>
+								<div class="dropdown-content-1">
+									<div class="column">
+
+
+
+										<h3>Find An Advisor</h3>
+										<a href="match_advisors04b8.html?kwd=investing_top_nav">Free
+											Match to Vetted Advisors</a> <a href="financial-advisors.html">Financial
+											Advisors Near You</a>
+
+
+										<h3>Investment Guide</h3>
+
+										<a
+											href="investing/index.html">Investment Guide Homepage</a><a
+                                            href="blog/investment-management/investing-101-the-basics-of-investing/index.html">Investing
+											101</a> <a
+											href="blog/investment-management/investment-strategy-principles/index.html">Important
+											Investing Principles</a> <a
+											href="blog/investment-management/key-trends-and-concerns-for-investors-in-2022/index.html">Key
+											Trends For Investors In 2022</a> <a
+											href="blog/financial-planning/wealth-creation-tips/index.html">8
+											Weatlh Creation Tips</a> <a
+											href="blog/financial-planning/wealth-preservation-strategies/index.html">10
+											Wealth Preservation Strategies</a>
+
+									</div>
+
+									<div class="column">
+										<h3>Calculators</h3>
+
+										<a
+											href="retirement-calculator/savings-goal-calculator-how-long-will-it-take-you-8/index.html">Saving
+											Goal Calculator</a> <a
+											href="retirement-calculator/investment-return-calculator-how-do-taxes-and-inflation-affect-you-5/index.html">Investment
+											Return Calculator</a> <a href="investing/index.html">Other Investment
+											Calculators</a>
+
+
+
+									</div>
+									<div class="column">
+										<h3>Important Reads</h3>
+
+
+										<a
+											href="blog/financial-planning/wealth-building-guide/index.html">5
+											Step Guide on Building Wealth</a> <a
+											href="blog/investment-management/what-is-an-investment-policy-statement-ips-and-how-do-you-write-one/index.html">How
+											To Write An Investment Policy Statement</a> <a
+											href="blog/investment-management/portfolio-manager-vs-investment-advisor/index.html">Portfolio
+											Managers vs. Investment Advisors</a> <a
+											href="blog/investment-management/value-stocks-vs-growth-stocks-which-one-is-right-for-you/index.html">Value
+											Stocks vs. Growth Stocks</a> <a
+											href="blog/financial-planning/wealth-creation-and-wealth-preservation/index.html">Wealth
+											Creation vs. Wealth Preservation</a> <a
+											href="blog/investment-management/how-to-invest-in-etfs/index.html">How
+											To Invest in ETFs</a> <a
+											href="blog/investment-management/seven-investing-principles-for-investment-success/index.html">7
+											Investing Principles for Investment Success</a> <a
+											href="blog/category/investment-management/index.html">More
+											Articles on Investing</a>
+
+									</div>
+								</div></li>
+
+							<li class="nav-item active more"><a
+								href="blog/index.html"
+								class="">Blog</a>
+								<div class="dropdown-content-3">
+									<div class="column">
+										<h3>Blog Categories</h3>
+										<a
+											href="blog/index.html">Blog Homepage</a><a
+										    href="blog/category/financial-advisor-guide/index.html">Financial
+											Advisor Guide Blogs</a> <a
+											href="blog/category/financial-planning/index.html">Financial
+											Planning Blogs</a> <a
+											href="blog/category/retirement-planning/index.html">Retirement
+											Planning Blogs</a> <a
+											href="blog/category/education-planning/index.html">Education
+											Planning Blogs</a> <a
+											href="blog/category/investment-management/index.html">Investment
+											Management Blogs</a> <a
+											href="blog/category/personal-finance/index.html">Personal
+											Finance Blogs</a> <a
+											href="blog/category/estate-planning/index.html">Estate
+											Planning Blogs</a>
+										<h3></h3>
+										<a href="article/index.html">Other Financial Resources</a>
+
+									</div>
+								</div></li>
+							<li class="nav-item active"><a href="https://wiseradvisorgrowth.com/get-started/?utm_source=wiseradvisor&amp;utm_content=advisor_program_header"
+								>Advisor Program</a></li>
+							<li class="nav-item active"><a href="about_us.html">About</a></li>
+							<li class="nav-item active"><a href="in_the_news.html">News</a></li>
+							<li class="nav-item active"><a href="contact_us.html">Contact</a></li>
+						</ul>
+					</div>
+					
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div style="height: 61px; width: 100%"></div>
+
+<div id="mobile">
+	
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-2">
+				<img
+					src="../static.wiseradvisor.com/wiseradvisor/v2/images/Menu-icon.png"
+					width="16" height="14" class="menu-icon" id="menu-bar"
+					alt="wiseradvisor">
+			</div>
+			<div class="col-md-10 col-10">
+				<a href="index.html"><img
+					src="../static.wiseradvisor.com/wiseradvisor/v2/images/logo.png"
+					width="100%" height="auto" class="mobile-logo" alt="wiseradvisor"></a>
+			</div>
+		</div>
+	</div>
+</header>
+<nav class="menu mar-left">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<ul class="dropdown">
+					<li class="dropdown-toggle" data-toggle="dropdown"><a href="#"
+						style="display: block">Financial Advisors</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+						<ul class="dropdown-menu sub-menu-bg1 fontclass">
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Find a
+									Financial Advisor</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="match_advisorsd22c.html?kwd=financial_advisors_top_nav">Get
+											Matched to a Vetted Advisor</a></li>
+									<li><a class="test2" href="financial-advisors.html">Search
+											Our Advisor Directory</a></li>
+								</ul></li>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Cities</a><span
+								class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="financial-advisors/georgia/atlanta/index.html">Financial
+											Advisors in Atlanta</a></li>
+									<li><a class="test2"
+										href="financial-advisors/texas/dallas/index.html">Financial
+											Advisors in Dallas</a></li>
+									<li><a class="test2"
+										href="financial-advisors/colorado/denver/index.html">Financial
+											Advisors in Denver</a></li>
+									<li><a class="test2"
+										href="financial-advisors/texas/houston/index.html">Financial
+											Advisors in Houston</a></li>
+									<li><a class="test2"
+										href="financial-advisors/new-york/new-york/index.html">Financial
+											Advisors in New York</a></li>
+									<li><a class="test2" href="financial-advisors.html">More
+											cities...</a></li>
+
+								</ul></li>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Important
+									Reads</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+									<li><a class="test2"
+										href="blog/financial-advisor-guide/how-to-find-a-financial-advisor/index.html">How
+											to Find a Financial Advisor</a></li>
+
+									<li><a class="test2"
+										href="blog/financial-advisor-guide/what-is-the-cost-of-a-financial-advisor/index.html">Cost
+											of a Financial Advisor</a></li>
+									<li><a class="test2"
+										href="blog/financial-advisor-guide/fiduciary-financial-advisor/index.html">Fiduciary
+											Financial Advisors</a></li>
+									<li><a class="test2"
+										href="blog/financial-advisor-guide/questions-to-ask-your-financial-advisor/index.html">Questions
+											to Ask an Advisor</a></li>
+									<li><a class="test2"
+										href="blog/financial-advisor/financial-advisor-what-does-he-do/index.html">What
+											Does a Financial Advisor Do?</a></li>
+									<li><a class="test2"
+											href="blog/financial-advisor-guide/how-to-determine-if-your-financial-advisor-is-doing-a-good-job-each-year/index.html">The 
+											How To Determine If Your Financial Advisor Is Doing A Good Job Each Year</a></li>
+									<li><a class="test2"
+										href="blog/category/financial-advisor-guide/index.html">More
+											Articles on Financial Advisors</a></li>		
+
+								</ul></li>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Financial
+									Advisors for Professionals</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2" href="financial-advisors/athletes/index.html">Athletes</a></li>
+									<li><a class="test2" href="financial-advisors/doctors/index.html">Doctors</a></li>
+								</ul></li>
+
+							<li><a class="test2top fontclass2"
+								href="financial-advisors/fee-only-financial-advisors/index.html">Fee-Only
+									Financial Advisors</a></li>
+							<li><a class="test2top fontclass2"
+								href="financial-advisors/fee-based-financial-advisors/index.html">Fee-Based
+									Financial Advisors</a></li>
+						</ul></li>
+					<li class="dropdown-toggle" data-toggle="dropdown"><a href="#"
+						style="display: block">Retirement</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+						<ul class="dropdown-menu sub-menu-bg1 fontclass">
+                           <li><a
+                                class="test2top fontclass2" tabindex="-1" href="retirement/index.html">Retirement Guide Homepage</a>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Find a
+									Retirement Advisor</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="match_advisors6d17.html?kwd=retirement_top_nav">Get
+											Matched to a Vetted Advisor</a></li>
+									<li><a class="test2" href="financial-advisors.html">Retirement
+											Advisors Near You</a></li>
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Retirement
+									Guide</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="blog/financial-advisor-guide/why-should-you-hire-a-retirement-advisor/index.html">Should
+											You Hire An Advisor For Your Retirement?</a></li>
+									<li><a class="test2"
+										href="blog/retirement/retirement-investment-strategies/index.html">Retirement
+											Investment Strategies</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/average-retirement-savings/index.html">Average
+											Retirement Savings by Age</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/retirement-planning-high-net-worth-individuals/index.html">Retirement
+											Planning for High-Net-Worth Individuals</a></li>
+
+
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Calculators</a><span
+								class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+									<li><a class="test2"
+										href="retirement-calculator/how-much-do-you-need-for-retirement-6/index.html">How
+											Much Do You Need For Retirement?</a></li>
+									<li><a class="test2"
+										href="retirement-calculator/how-will-retirement-impact-my-living-expenses-2/index.html">How
+											Will Retirement Impact My Living Expenses? </a></li>
+									<li><a class="test2"
+										href="retirement-calculator/compare-a-roth-401(k)-to-a-traditional-401(k)-1/index.html">Roth
+											401(K) To a Traditional 401(K)</a></li>
+									<li><a class="test2"
+										href="retirement-calculator/are-my-current-retirement-savings-sufficient-3/index.html">Are
+											My Current Retirement Savings Sufficient?</a></li>
+									<li><a class="test2" href="retirement/index.html">Other
+											Retirement Calculators</a></li>
+
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Important
+									Reads</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="blog/retirement-planning/what-is-a-401k-and-how-does-it-work/index.html">What
+											is a 401K?</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/what-is-a-roth-ira/index.html">What
+											is a Roth IRA?</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/retirement-benefits-mistakes/index.html">Common
+											Retirement Mistakes</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/retirement-planning-checklist/index.html">Retirement
+											Planning Checklist</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/financial-advisor-question-about-retirement/index.html">Question
+											To Ask Your Advisor About Retirement</a></li>
+									<li><a class="test2"
+										href="blog/retirement-planning/retirement-savings-tips-for-55-64-year-olds/index.html">Retirement
+											Savings Tips For 55-64 Year Olds</a></li>
+									<li><a class="test2"
+										href="blog/category/retirement-planning/index.html">More
+											Articles on Retirement Planning</a></li>
+
+
+								</ul></li>
+						</ul></li>
+
+					<li class="dropdown-toggle" data-toggle="dropdown"><a href="#"
+						style="display: block">Investing</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+						<ul class="dropdown-menu sub-menu-bg1 fontclass">
+						
+                    <li><a class="test2top fontclass2" tabindex="-1" href="investing/index.html">Investment Guide Homepage</a>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Find An
+									Advisor</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+									<li><a class="test2"
+										href="match_advisors04b8.html?kwd=investing_top_nav">Free
+											Match to Vetted Advisors</a></li>
+									<li><a class="test2" href="financial-advisors.html">Financial
+											Advisors Near You</a></li>
+
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Investment
+									Guide</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+
+									<li><a class="test2"
+										href="blog/investment-management/investing-101-the-basics-of-investing/index.html">Investing
+											101</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/investment-strategy-principles/index.html">Important
+											Investing Principles</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/key-trends-and-concerns-for-investors-in-2022/index.html">Key
+											Trends For Investors In 2022</a></li>
+									<li><a class="test2"
+										href="blog/financial-planning/wealth-creation-tips/index.html">8
+											Weatlh Creation Tips</a></li>
+									<li><a class="test2"
+										href="blog/financial-planning/wealth-preservation-strategies/index.html">10
+											Wealth Preservation Strategies</a></li>
+
+
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Calculators</a><span
+								class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+									<li><a class="test2"
+										href="retirement-calculator/savings-goal-calculator-how-long-will-it-take-you-8/index.html">Saving
+											Goal Calculator</a></li>
+									<li><a class="test2"
+										href="retirement-calculator/investment-return-calculator-how-do-taxes-and-inflation-affect-you-5/index.html">Investment
+											Return Calculator</a></li>
+									<li><a class="test2" href="investing/index.html">Other
+											Investment Calculators</a></li>
+
+
+								</ul></li>
+
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Important
+									Reads</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+								<ul class=" dropdown-menu sub-menu-bg1">
+
+									<li><a class="test2"
+										href="blog/financial-planning/wealth-building-guide/index.html">5
+											Step Guide on Building Wealth</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/what-is-an-investment-policy-statement-ips-and-how-do-you-write-one/index.html">How
+											To Write An Investment Policy Statement</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/portfolio-manager-vs-investment-advisor/index.html">Portfolio
+											Managers vs. Investment Advisors</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/value-stocks-vs-growth-stocks-which-one-is-right-for-you/index.html">Value
+											Stocks vs. Growth Stocks</a></li>
+									<li><a class="test2"
+										href="blog/financial-planning/wealth-creation-and-wealth-preservation/index.html">Wealth
+											Creation vs. Wealth Preservation</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/how-to-invest-in-etfs/index.html">How
+											To Invest in ETFs</a></li>
+									<li><a class="test2"
+										href="blog/investment-management/seven-investing-principles-for-investment-success/index.html">7
+											Investing Principles for Investment Success</a></li>
+
+									<li><a class="test2"
+										href="blog/category/investment-management/index.html">More
+											Articles on Investing</a></li>
+
+
+								</ul></li>
+
+
+						</ul></li>
+
+
+					<li class="dropdown-toggle" data-toggle="dropdown"><a href="#"
+						style="display: block">Blog</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+						<ul class="dropdown-menu sub-menu-bg1 fontclass">
+				
+								<li><a class="test2top fontclass2" tabindex="-1" href="blog/index.html">Blog Homepage</a>
+							<li class="dropdown-toggle" data-toggle="dropdown"><a
+								class="test1 fontclass2" tabindex="-1" href="#" id="">Blogs
+									Categories</a><span class="caret"><i class="fa fa-angle-down"></i></span>
+
+								<ul class=" dropdown-menu sub-menu-bg1">
+									<li><a class="test2"
+										href="blog/category/financial-advisor-guide/index.html">Financial
+											Advisor Guide Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/financial-planning/index.html">Financial
+											Planning Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/retirement-planning/index.html">Retirement
+											Planning Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/education-planning/index.html">Education
+											Planning Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/investment-management/index.html">Investment
+											Management Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/personal-finance/index.html">Personal
+											Finance Blogs</a></li>
+									<li><a class="test2"
+										href="blog/category/estate-planning/index.html">Estate
+											Planning Blogs</a></li>
+								</ul></li>
+							<li><a class="test2top fontclass2" tabindex="-1"
+								href="article/index.html">Other Financial Resources</a></li>
+						</ul></li>
+					<li><a href="https://www.wiseradvisor.com/advisor_signup.asp">Advisor
+							Program</a></li>
+					<li><a href="about_us.html">About</a></li>
+						<li><a href="in_the_news.html">News</a></li>
+					<li><a href="contact_us.html">Contact</a></li>
+					<li><a href="https://www.wiseradvisor.com/portfolio/index?section=individual"
+						rel="nofollow">Individual Sign In</a></li>
+					<li><a href="https://www.wiseradvisor.com/portfolio/index?section=advisor" rel="nofollow">Advisor
+							Sign In</a></li>
+					<li><a href="https://wiseradvisorgrowth.com/get-started/?utm_source=wiseradvisor&amp;utm_content=advisor_program_header" rel="nofollow">Are you a financial advisor? Sign Up</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</nav>
+<script>
+	$(document).ready(function() {
+		$('.dropdown-toggle').on("click", function(e) {
+			$(this).children('ul').toggle();
+			e.stopPropagation();
+			e.preventDefault();
+		});
+
+		$('.dropdown-sub').on("click", function(e) {
+			$(this).children('ul').toggle();
+			e.stopPropagation();
+			e.preventDefault();
+		});
+
+		$('.dropdown-sub a.test1').on("click", function(e) {
+			e.stopPropagation();
+		});
+		$('.dropdown-submenu a.test1').on("click", function(e) {
+			e.stopPropagation();
+		});
+		$('.sub-menu-bg2 a.test2').on("click", function(e) {
+			e.stopPropagation();
+		});
+
+		$('.sub-menu-bg1 a.test2').on("click", function(e) {
+			e.stopPropagation();
+		});
+		$('.sub-menu-bg1 a.test2top').on("click", function(e) {
+			e.stopPropagation();
+		});
+
+		$('.dropdown-submenu a.test').on("click", function(e) {
+			$(this).next('ul').toggle();
+			e.stopPropagation();
+			e.preventDefault();
+		});
+		
+		$("#menu-bar").click(function() {
+			$(".menu").toggleClass("mar-left");
+			$("body").toggleClass("o-hidden");
+		});
+		$("#menu-bar-1").click(function() {
+			$(".menu").toggleClass("mar-left");
+		});
+		$("#menu-bar-close").click(function() {
+			$(".menu").toggleClass("mar-left");
+			$("body").toggleClass("o-hidden");
+		});
+	});
+</script>
+</div>
+<!-- Header End -->
+	<section class="cities">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<section class="ab-container fr">
+						<div class="ab-benefits" id="module7">
+							<h2>WiserAdvisor Affiliate Program</h2>
+							<h3>What is WiserAdvisor.com?</h3>
+							<p>
+								WiserAdvisor.com is an online directory and lead generation
+								service that connects investors with local financial advisors.
+								Our sophisticated matching service can monetize your
+								website&apos;s traffic by matching your visitors to local
+								financial advisors.<br> <br> WiserAdvisor aims to
+								forge working relationships with businesses that generate
+								high-quality investor traffic. With various integration options,
+								as well as lucrative compensation methods, we are able to work
+								with your business needs to create a strong and profitable
+								partnership.
+							</p>
+							<h3>How does the affiliate program work?</h3>
+							<p>
+								Once you have become an affiliate, you are assigned a unique
+								tracking number that helps us identify which WiserAdvisor
+								lead(s) come from your website. This ID will be included in the
+								links that support the WiserAdvisor.com advertisements and will
+								allow traffic from your site to be tracked and credited to your
+								account.<br> <br> Several different ad types are
+								available to accommodate your business needs. Ad types include
+								text ads, banner ads, and IFRAMES, allowing viewers of your site
+								to either click through to the WiserAdvisor homepage or fill out
+								a form while remaining on your hosting page.
+							</p>
+							<p>Your company receives a percentage of the revenue
+								generated from all successfully converted leads.</p>
+							<h3>Why should you partner with WiserAdvisor.com?</h3>
+							<p>
+								Since 1999, WiserAdvisor has positioned itself as a leader in
+								the lead-generation industry. Our high conversion rates and
+								generous revenue share agreements mean that your business will
+								see substantial gains in monetized traffic. Turn your
+								website&apos;s traffic into profit by creating an affiliate
+								account now.<br> <br> To get your affiliate experience
+								started, please fill out the form below. An account manager will
+								contact you to discuss your business&apos;s particular needs and
+								if working with WiserAdvisor would be a good fit. You can also
+								reach an account manager directly at (703) 651-2048.
+							</p>
+							<a href="affiliateprogram/index.html" target="_blank"
+								style="color: #2A9DD6;">Click here</a> to login if you already
+							have an affiliate account.<br>
+							<!-- //www.wiseradvisor.com/affiliateprogram/ -->
+							<div class="affi-form">
+								<form method="post" action="#">
+									<fieldset>
+										<div class="control-group row">
+											<div class="col-lg-12 col-12">
+												<div class="form_success" style="display: none;">
+													<!-- begin error message -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td colspan="5"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="1" height="5" border="0"></td></tr>
+<tr valign="top"><td colspan="5" bgcolor="#669966"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="1" height="1" border="0"></td></tr>
+<tr valign="middle">
+<td width="36" bgcolor="#669966" valign="top"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/alert_green.gif" width="36" height="36" alt="!" border="0"></td>
+<td width="4" bgcolor="#c4e4c4"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="4" height="1" border="0"></td>
+<td width="100%" bgcolor="#c4e4c4"><font face="arial, helvetica, sans-serif" size="2" color="#000000"><b>Confirmation:</b></font>
+<table cellpadding="2" cellspacing="0" border="0">
+<tr valign="top">
+<td><font face="arial, helvetica, sans-serif" size="2" color="#000000">&#149;</font></td>
+<td><font face="arial, helvetica, sans-serif" size="2" color="#000000">Thank you for your inquiry.  You will be contacted within 1 business days to further setup your account.</font></td>
+</tr>
+</table>
+</td>
+<td width="4" bgcolor="#c4e4c4"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="4" height="1" border="0"></td>
+<td width="1" bgcolor="#669966"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="1" height="1" border="0"></td>
+</tr>
+<tr valign="top">
+<td colspan="5" bgcolor="#669966"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="1" height="1" border="0"></td>
+</tr>
+<tr><td colspan="5"><img src="../static.wiseradvisor.com/wiseradvisor/v2/images/spacer.gif" width="1" height="5" border="0"></td></tr>
+</table>
+<!-- end error message -->
+												</div>
+											</div>
+										</div>
+										<input type="hidden" name="bd" value="20024016"><input type="hidden" name="src" value="20024016"><input type="hidden" name="ss" value="y">
+										<div class="form_default" style="display: block;">
+											<h2>Request More Information</h2>
+											<div class="control-group row">
+												<div class="col-lg-6 col-12">
+													<label for="fname" id="fname_label">First Name*</label>
+													<input class="input-xlarge" oninvalid="InvalidMsg(this,'Please enter your First Name');" oninput="InvalidMsg(this,'Please enter your First Name');" id="fname" type="text"
+														name="fname" value="" size="50" maxlength="100"
+														placeholder="John" required>
+												</div>
+												<div class="col-lg-6 col-12">
+													<label for="lname">Last Name*</label> <input
+														class="input-xlarge" type="text" id="lname" name="lname" oninvalid="InvalidMsg(this,'Please enter your Last Name');"
+														value="" size="50" maxlength="100" placeholder="Doe"
+														required>
+												</div>
+											</div>
+
+											<div class="control-group row">
+												<div class="col-lg-6 col-12">
+													<label for="address1">Address 1*</label> <input
+														class="input-xlarge" type="text" id="address1" oninvalid="InvalidMsg(this,'Please enter your Address');"
+														name="address1" value="" size="50" maxlength="200"
+														required>
+												</div>
+												<div class="col-lg-6 col-12">
+													<label for="address2">Address 2</label> <input
+														class="input-xlarge" type="text" id="address2"
+														name="address2" value="" size="50" maxlength="200">
+												</div>
+
+											</div>
+											<div class="control-group row">
+												<div class="col-lg-6 col-12">
+													<label for="zip">ZIP/Postal Code*</label> <input
+														class="input-xlarge" type="text" id="zip_form" name="zip" oninvalid="InvalidMsg(this,'Please provide your zip code');"
+														value="" size="5" maxlength="5" pattern="^[0-9]{5}" placeholder="98002"
+														required>
+													<div id="rsp_zip" class="error-custom"></div>
+
+												</div>
+												<div class="col-lg-6 col-12">
+													<label for="phone" style="display: block;">Phone*</label>
+													<input class="input-xlarge" type="tel" id="phone" oninvalid="InvalidMsg(this,'Please provide your Phone Number');"
+														pattern="^[0-9]{10}" name="phone" value=""
+														maxlength="10" placeholder="8908796824" size="35" required>
+													<div id="rsp_phone" class="error-custom"></div>
+												</div>
+
+											</div>
+											<div class="control-group row">
+												<div class="col-lg-6 col-12">
+													<label for="email">Email Address*</label> <input
+														class="input-xlarge" id="email_form" name="email" oninvalid="InvalidMsg(this,'Please provide your Email Address');"
+														size="51" maxlength="100" type="email"
+														pattern="^[a-zA-Z0-9].[a-zA-Z0-9\._%\+\-]{0,63}@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,30}$"
+														placeholder="you@gmail.com" required>
+													<div id="rsp_email" class="error-custom"></div>
+
+												</div>
+												<div class="col-lg-6 col-12">
+													<label for="verify_email">Confirm Email Address*</label> <input
+														class="input-xlarge" type="email"
+														pattern="^[a-zA-Z0-9].[a-zA-Z0-9\._%\+\-]{0,63}@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,30}$" oninvalid="InvalidMsg(this,'Please provide your Email Address');"
+														id="verify_email" name="verify_email" value="" size="50"
+														maxlength="100" required>
+													<div id="rsp_verify_email" class="error-custom"></div>
+
+												</div>
+
+											</div>
+											<div class="control-group row">
+												<div class="col-lg-6 col-12">
+													<div class="control-group row">
+														<div class="col-lg-6 col-12">
+															<label for="password">Choose Password*</label> <input
+																type="password" class="input-xlarge" id="password" oninvalid="InvalidMsg(this,'Please provide your Password');"
+																name="password" value="" size="15" maxlength="15"
+																required>
+														</div>
+														<div class="col-lg-6 col-12">
+															<label for="verify_password">Confirm Password*</label> <input
+																type="password" class="input-xlarge"
+																id="verify_password" name="verify_password" oninvalid="InvalidMsg(this,'Please provide your confirm Password');"
+																size="15" maxlength="15" required>
+															<div id="rsp_password" class="error-custom"></div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-lg-6 col-12">
+													<label for="company">Company*</label> <input
+														class="input-xlarge" type="text" id="company" oninvalid="InvalidMsg(this,'Please provide your Company');"
+														name="company" value="" size="50" maxlength="50" required>
+												</div>
+											</div>
+											<div class="control-group row">
+
+												<div class="col-lg-6 col-12">
+													<label for="url">Site URL*</label> <input
+														class="input-xlarge" type="text" id="url" name="url" oninvalid="InvalidMsg(this,'Please provide your Site URL');"
+														value="" size="50" maxlength="200"
+														pattern="https?:\/\/(www\.)?[a-zA-Z0-9._\-~]+(\.[a-z]{2,6})+([\/a-zA-Z0-9#?&=._\-]*)?"
+														required title="Please provide valid url">
+
+												</div>
+												<div class="col-lg-6 col-12">
+													<label for="traffic" style="display: inline-block;">Monthly
+														Unique Visitors* </label><br> <select
+														class="select-box input-xlarge" name="traffic"
+														id="traffic" required>
+														<option value="">-- Select One --</option>
+														<option value="low">50,000 or less</option>
+														<option value="medium">50,000-100,000</option>
+														<option value="high">100,000-500,000</option>
+														<option value="huge">500,000 or more</option>
+														<option value="unknown">Don't Know</option>
+													</select>
+												</div>
+
+											</div>
+											<div class="control-group row">
+
+												<div class="col-lg-6 col-12" style="display: none;">
+													<div class="g-recaptcha"
+														data-sitekey="6Le4ngMTAAAAAMe0RdATmg6QEcEEf9SsgHBWB9u-"></div>
+													<div id="rsp_jcaptcha" class="error-custom"></div>
+												</div>
+												<div class="col-lg-6 col-12">
+													<input type="checkbox" id="accept" name="accept"
+														value="accept"
+														style="display: inline !important; margin-top: 0px;">
+													<label for="checkbox" class="affliate-label"
+														style="display: inline-block; vertical-align: middle; padding-bottom: 9px;">I
+														have read and accepted the <a
+														href="Javascript:win_pop_affterms();" rel="nofollow" class="affag"
+														>Affiliate Agreement</a>
+													</label>
+													<div id="rsp_accept" class="error-custom"></div>
+
+												</div>
+											</div>
+											<div class="control-group row">
+												<div class="col-lg-12 col-12">
+													<input id="submit" type='submit' value='Submit'> <img
+														id="loading"
+														src="http://static.wiseradvisor.com/wiseradvisor/v2/images/loading-img.svg"
+														alt="Updating ..." style="display: none;" />
+												</div>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<!-- <script>
+        										jQuery(function($){
+        											   $("#phone").mask("(999) 999-9999");
+        											});
+        									</script> -->
+						</div>
+					</section>
+				</div>
+				<div class="cl"></div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+
+<script>
+	 function win_pop_terms() {
+	 	window.open("https://www.wiseradvisor.com/include/terms.asp")
+	 }
+	 function win_pop_privacy() {
+		window.open("https://www.wiseradvisor.com/include/privacy.asp")
+	 }
+	 function win_pop_affterms() {
+			window.open("https://www.wiseradvisor.com/include/aff_terms.asp")
+	 }
+	 function win_pop_agreement() {
+		 window.open("https://www.wiseradvisor.com/include/business_agreement.asp")
+	 }
+	 function win_pop_disclosure() {
+		 window.open("https://www.wiseradvisor.com/disclosure.asp")
+	}
+</script>
+
+
+<section class="mb-3">
+<div class="container" style="font-size: 20px;font-weight: 700;">
+Read Our <a href="https://www.wiseradvisor.com/include/business_agreement.asp" rel="nofollow" style="font-size: 20px">Business Agreement.</a></div>
+</section>
+
+
+<section class="mb-0">
+		<div class="bottom-zip-contact">
+			<form class="validate theform" name="zip-ad11" method="get"
+				action="https://www.wiseradvisor.com/match_advisors.asp"
+				onsubmit="return validateForm(this, '11');">
+				
+				 <input type="hidden" name="kwd" value="AFFILIATE_footer_zip">
+				 
+				<table width="100%" border="0" cellpadding="0" cellspacing="0"
+					style="max-width:350px; margin: 0 auto;">
+					<tbody>
+						<tr>
+							<td><input type="text" name="g" id="ad-zip11" class="zip-fill"
+								required="required" placeholder="Enter Your Zip Code"
+								maxlength="5" tabindex="0" pattern="^[0-9]{5}"
+								title="Provided zip code is invalid"></td>
+							<td>
+								<div id="errorzip-ad11"
+									style="color: #ff0000; font-size: 14px !important;"></div>
+							</td>
+							<td class="zipcodebox">
+								<button name="button" type="submit" class="pin-btn">Find an Advisor</button>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div class="cl"></div>
+	</section>
+
+<div class="line_break"></div>
+ <div class="upper_footer">
+	<div class="container">
+		<div class="row">
+	    	<div class="col-md-12">
+	    	
+	    	<div class="smo">
+      		<ul class="mb-4">
+            <li><a href="https://www.facebook.com/pages/WiserAdvisor/191949227500128" class="facebook" target="_blank">facebook</a></li>
+            <li><a href="https://twitter.com/WiserAdvisor" target="_blank" class="twitter">twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/wiseradvisor" target="_blank" class="linkedin">linkedin</a></li>
+            
+           </ul>
+           </div>
+	    	<ul>
+	        	<li><a href="index.html">Home</a></li>
+	        	<li><a href="about_us.html#faq_section">FAQs</a></li>
+				 <li><a href="https://wiseradvisorgrowth.com/get-started/?utm_source=wiseradvisor&amp;utm_content=advisor_program_footer" rel="nofollow">Advisor Program</a></li>
+				<li><a href="affiliate_program.html">Affiliate Program</a></li>
+	            <li><a href="https://www.wiseradvisor.com/include/privacy.asp" rel="nofollow">Privacy Policy </a></li>
+	            <li><a href="https://www.wiseradvisor.com/include/terms.asp" rel="nofollow"> Terms &amp; Conditions </a></li>
+				<li><a href="https://www.wiseradvisor.com/disclosure.asp" rel="nofollow"> Disclosure</a></li>
+	        </ul>
+	       
+	         <p>
+			WiserAdvisor is a wholly-owned brand of the Respond.com Inc. ("Respond") family. Respond is registered with the U.S. Securities and Exchange Commission as an investment adviser, and operates through various subsidiaries and brands that provide financial education. WiserAdvisor matches and refers investors to qualified financial professionals that have elected to participate in our matching platform. WiserAdvisor, Respond, and Respond's other subsidiaries and brands do not manage investor assets or otherwise render investment or financial planning advice beyond the referral of investors to qualified financial professionals. By using this website, you agree to our terms and conditions. </p>
+			
+			<p>Copyright 2025 WiserAdvisor.com. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</div><!-- end Upper footer -->
+<!-- <footer>
+<div class="container">
+   <div class="row">
+       <div class="col-md-5"><a href="/"><img src="//static.wiseradvisor.com/wiseradvisor/v2/images/footer_logo.png" style="max-width:256px;" alt="wiseradvisor-logo"/></a></div>
+      		
+      		<div class="smo">
+      		<ul class="mb-4">
+            <li><a href="https://www.facebook.com/pages/WiserAdvisor/191949227500128" class="facebook" target="_blank">facebook</a></li>
+            <li><a href="https://twitter.com/WiserAdvisor" target="_blank" class="twitter">twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/wiseradvisor" target="_blank" class="linkedin">linkedin</a></li>
+            
+           </ul>
+           </div>
+      		<div class="col-md-7 smo">
+            <ul class=" float-right">
+				<li><a href="https://www.facebook.com/pages/WiserAdvisor/191949227500128" class="facebook" target="_blank">facebook</a></li>
+				<li><a href="https://twitter.com/WiserAdvisor" target="_blank" class="twitter">twitter</a></li>
+				<li><a href="https://www.linkedin.com/company/wiseradvisor" target="_blank" class="linkedin">linkedin</a></li>
+				<li><a href="https://plus.google.com/104834355550285081949/posts" target="_blank" class="youtube">gplus</a></li>
+	            </ul>
+	        </div>
+       </div>
+   </div>
+</footer>end footer -->
+	
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.wiseradvisor.com/affiliate_program.asp by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Jun 2025 18:11:12 GMT -->
+</html>
+

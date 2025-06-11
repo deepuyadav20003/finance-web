@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 10 Jun 2025 23:07:34 at https://www.wiseradvisor.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.wiseradvisor.com/ -O1 "C:\My Web Sites\https___www.wiseradvisor.com_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:07:40	Warning: 	Note: due to https://www.wiseradvisor.com remote robots.txt rules, links beginning with these path will be forbidden: /api, /freetrial, /teamprofile.jsp, /cgi-bin, /site/, /enterprise/, /advisorprofileform.jsp, /profile_lead_form.asp, /site/, /v1/profile/, /compare/, /Compare/, /disclosure.asp, /advisor_signup.asp, /WA_advisor_disclosure.asp, /include/, /user-info.asp, /portfolio/, /general/, /v2/directory/ (see in the options to disable this)
+23:07:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://www.wiseradvisor.com/wp-content/themes/watheme/assets/fonts/fonts.css
+23:09:59	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.wiseradvisor.com/)
+23:09:59	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/feed/ (from https://www.wiseradvisor.com/)
+23:09:59	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/comments/feed/ (from https://www.wiseradvisor.com/)
+23:10:30	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/xmlrpc.php?rsd (from https://www.wiseradvisor.com/)
+23:39:22	Warning: 	File not parsed, looks like binary: https://www.wiseradvisor.com/blog/wp-content/uploads/2025/06/Top-Insights-Driving-Financial-Planning-Strategies-in-1.webp
+23:39:37	Warning: 	File not parsed, looks like binary: https://www.wiseradvisor.com/blog/wp-content/uploads/2025/05/Tips-to-Build-Wealth-with-Patience-and-Time.webp
+23:39:45	Warning: 	File not parsed, looks like binary: https://www.wiseradvisor.com/blog/wp-content/uploads/2025/05/How-to-Build-a-Retirement-Plan-That-Covers-Your-Healthcare-Needs.webp
+23:40:31	Warning: 	File not parsed, looks like binary: https://www.wiseradvisor.com/blog/wp-content/uploads/2023/12/WA-42.webp
+23:40:32	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/us.svg (from https://www.wiseradvisor.com/)
+23:45:19	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/fonts/slick.eot (from https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/style.min.css?ver=1.0.0)
+23:45:19	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/fonts/slick.eot? (from https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/style.min.css?ver=1.0.0)
+23:45:19	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/fonts/slick.woff (from https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/style.min.css?ver=1.0.0)
+23:45:19	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/fonts/slick.ttf (from https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/style.min.css?ver=1.0.0)
+23:45:19	Error: 	"Not Found" (404) at link https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/fonts/slick.svg (from https://www.wiseradvisor.com/wp-content/themes/watheme/assets/css/style.min.css?ver=1.0.0)
+00:10:11	Warning: 	Retry after error -5 (error:00000006:lib(0):func(0):EVP lib) at link https://www.wiseradvisor.com/financial-advisors/oh/columbus/ (from https://www.wiseradvisor.com/financial-advisors.asp/)
+00:11:22	Error: 	Exit requested by shell or user
+00:11:23	Warning: 	File not added due to mirror cancel: https://www.wiseradvisor.com/match_advisors.asp?kwd=listing_page_Indianapolis_Indiana
+00:11:27	Error: 	Exit requested by shell or user
+00:11:27	Error: 	"" (-1) at link https://www.wiseradvisor.com/financial-advisors/tn/memphis/ (from https://www.wiseradvisor.com/financial-advisors.asp/)
+00:11:27	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 3 minutes 53 seconds : 5887 links scanned, 5705 files written (661733251 bytes overall) [408629585 bytes received at 106608 bytes/sec], 327191896 bytes transferred using HTTP compression in 2542 files, ratio 21%, 8.5 requests per connection
+(14 errors, 8 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]
